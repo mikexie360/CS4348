@@ -76,7 +76,7 @@ int main() {
 	//retVal = shm_open();
 	if(pid[i] ==0) //child process
 	{
-		if(pid[0] == 0)            
+		if(pid[0] == 0 )            
 		{
 			for(;*maxItemsGenerated >0;)	// producer
 			{
